@@ -101,8 +101,8 @@ body {
   }
 }
 .intro-section {
-  /* background: url("../images/bkg.jpg");  */
-  background:#008aff;
+  background: url("../images/farm3.jpg");
+  /*background:#008aff;*/
   height: 600px;
   padding: 0 60px;
 }
