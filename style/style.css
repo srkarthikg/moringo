@@ -541,10 +541,10 @@ body {
     line-height: 50px;
 	text-align:center;
 }
-.morningo-row .morningo-scroll .morningo-img{
+.morningo-scroll .morningo-img{
 	float:right;
 }
-.morningo-row .morningo-scroll .morningo-caption{
+.morningo-scroll .morningo-caption{
 	float:left;
 }
 .morningo-row .morningo-img{
