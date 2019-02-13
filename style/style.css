@@ -530,8 +530,7 @@ body {
 }
 #morningo-con{
 	padding: 120px 24px;
-	margin-left:auto;
-	margin-right:auto;
+	
 }
 #morningo-con h2{   
 	color: #414042;
@@ -540,4 +539,6 @@ body {
     margin: 0 0 20px;
 	font-size: 48px;
     line-height: 50px;
+	margin-left:auto;
+	margin-right:auto;
 	}
