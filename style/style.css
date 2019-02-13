@@ -530,6 +530,8 @@ body {
 }
 #morningo-con{
 	padding: 120px 24px;
+	margin-left:auto;
+	margin-right:auto;
 }
 #morningo-con h2{   
 	color: #414042;
