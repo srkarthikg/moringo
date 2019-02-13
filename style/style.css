@@ -539,6 +539,25 @@ body {
     margin: 0 0 20px;
 	font-size: 48px;
     line-height: 50px;
-	margin-left:auto;
-	margin-right:auto;
-	}
+	text-align:center;
+}
+@media only screen and (min-width: 768px)
+.callout-row .callout-caption:last-child:not(:first-child) {
+	float: right;
+}
+@media only screen and (min-width: 768px)
+.callout-row.callout-scroll .callout-caption {
+    float: left;
+}
+@media only screen and (min-width: 1080px)
+.callout-row .callout-caption {
+    height: 350px;
+}
+@media only screen and (min-width: 768px)
+.callout-row .callout-caption {
+    width: 41.6666666667%;
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 250px;
+}
