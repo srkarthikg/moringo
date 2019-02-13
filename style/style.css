@@ -529,7 +529,7 @@ body {
   }
 }
 #morningo-con{
-	padding: 120px 24px;
+	padding: 34px 44px;
 	
 }
 #morningo-con h2{   
@@ -557,5 +557,12 @@ body {
 	float:left;
 }
 .morningo-row .morningo-caption{
+	width: 41.6666666667%;
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 250px;
 	float:right;
+	text-align: -webkit-center;
+    margin-top: 80px;
 }
