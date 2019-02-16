@@ -555,6 +555,7 @@ body {
     height: 250px;
     text-align: -webkit-center;
     margin-top: 80px;
+	background-color: #53a843;
 }
 .morningo-row .morningo-img{
 	float:left;
@@ -567,8 +568,69 @@ body {
 	float:right;
 	text-align: -webkit-center;
     margin-top: 80px;
+	background-color: #53a843;
 }
 .morningo-img img{
 	width:620px;
 	height:350px;
+}
+.morningo-scroll h3,.morningo-row h3{
+	color:white;
+	margin-top:86px;
+}
+.morningo-scroll p,.morningo-row p{
+	color:white;
+}
+@media only screen and (min-width: 768px){
+.front-retailer-section {
+	height: 500px;
+    padding: 0;
+	background: url(../images/super_2.jpg);
+}
+}
+.front-retailer-section {
+	background: url(../images/super_2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 64px 24px;
+    position: relative;
+}
+.front-retailer-section .hero-overlay {
+    background-color: rgba(0,0,0,.3);
+}
+
+.hero-overlay, #video-overlay {
+    background-color: rgba(0,0,0,.2);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.front-retailer-section .front-retailer-content.retailer-logos {
+    width: 100%;
+}
+@media only screen and (min-width: 768px)
+.front-retailer-section .front-retailer-content {
+    padding: 156.5px 0;
+}
+.front-retailer-section .front-retailer-content {
+    text-align: center;
+}
+@media only screen and (min-width: 768px)
+.retailer-logos {
+    display: inline-block;
+}
+.retailer-logos {
+    max-width: 100%;
+    min-width: 0;
+    width: auto;
+}
+.front-retailer-section .front-retailer-content h2 {
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
 }
