@@ -529,8 +529,7 @@ body {
   }
 }
 #morningo-con{
-	padding: 34px 44px;
-	
+	padding: 34px 44px;	
 }
 #morningo-con h2{   
 	color: #414042;
@@ -543,6 +542,7 @@ body {
 }
 .morningo-scroll{
 	margin:0px auto 80px;
+	color:red;
 }
 .morningo-scroll .morningo-img{
 	float:right;
@@ -573,6 +573,7 @@ body {
 .morningo-img img{
 	width:620px;
 	height:350px;
+	margin-bottom:50px;
 }
 .morningo-scroll h3,.morningo-row h3{
 	color:white;
@@ -580,6 +581,7 @@ body {
 }
 .retailers p{
 	color:white;
+	margin-top:85px;
 }
 .morningo-scroll p,.morningo-row p{
 	color:white;
