@@ -88,7 +88,7 @@ body {
     padding: 5px;
   }
   .navbar img {
-    max-width: 215px;
+    max-width: 170px;
   }
   #myNavbar {
     margin-top: 14px;
@@ -793,4 +793,29 @@ body section .category-block {
 .dbp-sm-1, .dbp-sm-2, .dbp-sm-3, .dbp-sm-4, .dbp-sm-5, .dbp-sm-6, .dbp-sm-7, .dbp-sm-8, .dbp-sm-9, .dbp-sm-10, .dbp-sm-11, .dbp-sm-12 {
 	float: left;
 	}
+}
+#myBtn {
+  width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#myBtn:hover {
+  background-color:#53a843;
 }
