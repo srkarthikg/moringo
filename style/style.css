@@ -100,6 +100,11 @@ body {
     padding: 75px 0;
   }
 }
+@media only screen and (max-width:430px){
+	.navbar img {
+    max-width: 165px;
+  }
+}
 .intro-section {
   background: url("../images/farm3.jpg");
   /*background:#008aff;*/
