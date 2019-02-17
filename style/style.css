@@ -102,7 +102,7 @@ body {
 }
 @media only screen and (max-width:430px){
 	.navbar img {
-    max-width: 165px;
+    max-width: 1px;
   }
 }
 .intro-section {
